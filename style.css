@@ -1,0 +1,300 @@
+
+
+body{
+}
+
+
+.navber{
+    background-color: #4745451f;
+    height: 60px;
+}
+
+.nav1 a {
+    margin-left: 40px;
+    color: rgb(10, 10, 10);
+}
+
+
+
+.nav_logo img {
+    height: 50px;
+    width: 80px;
+}
+
+.bike_main {
+    margin-left: -11px;
+}
+
+.ProductH1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+
+.ProductH1:hover {
+    color: rgb(179, 184, 182);
+}
+
+
+
+
+.card:hover {
+    box-shadow: 10px 8px 20px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+
+.card {
+
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.btn {
+    border: 2px solid black;
+}
+
+.prod_main h6 {
+    margin-top: 3px;
+    color: #000;
+}
+
+/* button more product */
+
+.btn_more {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .btn_more {
+        text-align: center;
+
+    }
+}
+
+
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+    background-color: #22222272;
+}
+
+/* about us */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    min-width: 370px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.left-container {
+    flex: 1;
+    height: 480px;
+    background-color: black;
+}
+
+.right-container {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    flex: 1;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.left-container p {
+    font-size: 0.9rem;
+}
+
+.right-inner-container {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+
+.left-inner-container {
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+}
+
+input,
+textarea {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid black;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #00b4cf;
+    background-color: #00b4cf;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-container {
+        display: none;
+    }
+
+    .lg-view {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .sm-view {
+        display: none;
+    }
+}
+
+form p {
+    text-align: left;
+}
+
+
+/* about us */
+
+
+.experince-header {
+    margin-top: 50px;
+    position: relative;
+    font-size: 42px;
+}
+
+.experince-header-set {
+    padding-right: 10px;
+    background: #9194a99c;
+}
+
+
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about-me-section {
+    padding: 20px 0;
+    width: 50%;
+    color: #878aa1;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+
+.img-section {
+    width: 350px;
+    height: 350px;
+    padding: 20px 0;
+    border-radius: 5px;
+
+}
+
+.img-section img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 15px 15px 0 #222335;
+    border-radius: 5px;
+}
+
+.about-text {
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+
+
+@media only screen and (max-width: 1150px) {
+    .experince-alt {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 968px) {
+    .about-container {
+        flex-direction: column-reverse;
+    }
+
+    .about-me-section {
+        width: 100%;
+    }
+
+    .img-section {
+        margin-top: 25px;
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+    }
+}
+
+
+/* contact */
+
+.social{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.social a{
+    margin-left: 10px;
+}
+
+.social i{
+    color: #FFFFFF;
+}
